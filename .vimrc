@@ -1,5 +1,8 @@
 let mapleader=" "
 
+set number
+set relativenumber
+
 map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
 map gp :vsc Edit.PeekDefinition<CR>
