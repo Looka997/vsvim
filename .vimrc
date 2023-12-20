@@ -2,10 +2,14 @@ let mapleader=" "
 
 set number
 set relativenumber
+set scrolloff=10
+set ignorecase smartcase
 
 map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
 map gp :vsc Edit.PeekDefinition<CR>
+map gb :vsc View.NavigateBackward<CR>
+map gf :vsc View.NavigateForward<CR>
 map qi :vsc Edit.QuickInfo<CR>
 
 nnoremap <leader>m :vsc Edit.NextMethod<cr>
