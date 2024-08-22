@@ -18,7 +18,10 @@ map <C-n> :vsc Edit.LineDown
 
 nnoremap <leader>m :vsc Edit.NextMethod<cr>
 nnoremap <leader>M :vsc Edit.PreviousMethod<cr>
+nnoremap fds :vsc Edit.FormatDocument<CR>:w<CR>
+
 inoremap kj <Esc>
+
 nnoremap rn :vsc Refactor.Rename<cr>
 vnoremap gc :vsc Edit.ToggleLineComment<cr>
 
