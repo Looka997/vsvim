@@ -4,6 +4,7 @@ set number
 set relativenumber
 set scrolloff=10
 set ignorecase smartcase
+set vsvim_cleanmacros
 set clipboard=unnamed
 
 map gi :vsc Edit.GoToImplementation<CR>
