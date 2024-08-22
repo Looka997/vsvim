@@ -13,6 +13,8 @@ map gp :vsc Edit.PeekDefinition<CR>
 map gb :vsc View.NavigateBackward<CR>
 map gf :vsc View.NavigateForward<CR>
 map K :vsc Edit.QuickInfo<CR>
+map <C-p> :vsc Edit.LineUp
+map <C-n> :vsc Edit.LineDown
 
 nnoremap <leader>m :vsc Edit.NextMethod<cr>
 nnoremap <leader>M :vsc Edit.PreviousMethod<cr>
