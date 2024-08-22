@@ -4,6 +4,7 @@ set number
 set relativenumber
 set scrolloff=10
 set ignorecase smartcase
+set clipboard=unnamed
 
 map gi :vsc Edit.GoToImplementation<CR>
 map gr :vsc Edit.FindAllReferences<CR>
