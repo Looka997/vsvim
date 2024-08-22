@@ -12,7 +12,7 @@ map gr :vsc Edit.FindAllReferences<CR>
 map gp :vsc Edit.PeekDefinition<CR>
 map gb :vsc View.NavigateBackward<CR>
 map gf :vsc View.NavigateForward<CR>
-map qi :vsc Edit.QuickInfo<CR>
+map K :vsc Edit.QuickInfo<CR>
 
 nnoremap <leader>m :vsc Edit.NextMethod<cr>
 nnoremap <leader>M :vsc Edit.PreviousMethod<cr>
