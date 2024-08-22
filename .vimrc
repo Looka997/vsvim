@@ -18,13 +18,8 @@ map <C-n> :vsc Edit.LineDown
 
 nnoremap <leader>m :vsc Edit.NextMethod<cr>
 nnoremap <leader>M :vsc Edit.PreviousMethod<cr>
-
-nnoremap R :vsc Refactor.Rename<cr>
-vnoremap <leader>gc :vsc Edit.ToggleLineComment<cr>
-
-" jump between compilation errors
-nnoremap <leader>e :vsc View.NextError<cr>
-nnoremap <leader>E :vsc View.PreviousError<cr>
+nnoremap rn :vsc Refactor.Rename<cr>
+vnoremap gc :vsc Edit.ToggleLineComment<cr>
 
 " testing and debugging
 nnoremap <leader>b :vsc Debug.ToggleBreakpoint<cr>
